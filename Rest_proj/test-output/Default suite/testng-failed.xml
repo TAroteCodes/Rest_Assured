@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="rest_Assured.Grocery_Store_Api">
+        <methods>
+          <include name="ADD_ITEM_TO_CART"/>
+          <include name="DELETE_ITEM_IN_CART"/>
+          <include name="UPDATE_QUANTITY"/>
+          <include name="REGISTER_API_CLIENT"/>
+          <include name="REPLACE_PRODUCT_IN_CART"/>
+        </methods>
+      </class> <!-- rest_Assured.Grocery_Store_Api -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
